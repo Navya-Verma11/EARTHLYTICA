@@ -1,0 +1,119 @@
+/* style6.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+/* Header styles */
+header {
+  background-color: #006699;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+header h1:last-child {
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+header a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #006699;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+header a:hover {
+  background-color: #006699;
+  color: #fff;
+}
+
+/* Main content styles */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+main p:first-child {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+main p:last-child {
+  font-size: 18px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+/* Form styles */
+form {
+  margin-top: 40px;
+}
+
+form label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="url"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f2f2f2;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  resize: none;
+}
+
+form textarea {
+  height: 200px;
+}
+
+form input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #006699;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #fff;
+  color: #006699;
+}

@@ -1,0 +1,61 @@
+/* Set font and background colors */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F7F7F7;
+}
+
+/* Style the header */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the main content */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the resource categories */
+h2 {
+  font-size: 28px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Style the resource items */
+ul li {
+  margin-bottom: 40px;
+}
+
+/* Style the resource titles */
+h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* Style the resource descriptions */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* Style the resource links */
+a {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+a:hover {
+  background-color: #333;
+}

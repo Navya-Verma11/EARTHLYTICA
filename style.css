@@ -1,0 +1,563 @@
+html, body {
+  height: 100%;
+  width: 100%;
+
+}
+
+
+
+#navbar{
+  display: flex;
+  align-items : center;
+  position:relative;
+}
+#navbar::before{
+  content:"";
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+  
+}
+
+:root{
+  --navbar-height:59px;
+}
+#logo{
+  margin: 10px 44px;
+}
+#logo img{
+  height: 49px;
+  margin: 3px 16px;
+}
+#navbar{
+  position: relative;
+}
+#navbar ul{
+  display: flex;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+#navbar ul li{
+  list-style: none;
+  font-size: 1.2rem;
+}
+#navbar ul li a{
+  color: white;
+  display: block;
+  padding:3px 22px ;
+  border-radius: 20px;
+  text-decoration: none;
+}
+#navbar ul li a:hover{
+  color: black;
+  background-color: white;
+  display: block;
+  padding:3px 22px ;
+  border-radius: 20px;
+  text-decoration: none;
+}
+#home {
+  background-image: url(https://www.shutterstock.com/image-photo/hands-holding-globe-glass-green-260nw-1310886638.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#home h1 {
+  font-size: 6rem;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transform: translateY(-95px);
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('https://www.shutterstock.com/image-photo/hands-holding-globe-glass-green-260nw-1310886638.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#home p {
+  font-size: 2rem;
+  color:black;
+  transform: translateY(-55px);
+  background-color: lightgreen;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
+
+
+/* Styles for the project section */
+#domains-container {
+  background-color: #f5f5f5;
+  padding: 60px 0;
+  background: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/vector-nature-background_thumb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#causes {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: url(https://media.istockphoto.com/id/844226534/photo/leaf-background.jpg?b=1&s=612x612&w=0&k=20&c=kECabGLk1Wkbuq7VS4LmikUzAwOo96ztub90zOIBha8=);
+}
+
+.box {
+  width: 350px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+  transform: translateY(-10px);
+}
+
+.box img {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: block;
+  margin: 80px auto;
+  padding: 15px 30px;
+  background-color: #2f9ae0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #4bb0e3;
+}
+
+
+#community-section {
+  width: 100%;
+  text-align: center;
+}
+
+#community {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  background: url(https://media.istockphoto.com/id/844226534/photo/leaf-background.jpg?b=1&s=612x612&w=0&k=20&c=kECabGLk1Wkbuq7VS4LmikUzAwOo96ztub90zOIBha8=);
+}
+
+.box1 {
+  flex: 1 1 calc(33.33% - 20px);
+  max-width: calc(33.33% - 20px);
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .box1 {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+}
+
+
+#projects-section::before{
+ content: "";
+ position: absolute;
+ background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrfzRTS65CHVmcO050S5BqnnJErK2W5uax7Q&usqp=CAU');
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ opacity: 0.3;
+
+}
+
+#projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-item{
+    padding: 34px;
+}
+
+#projects img{
+    height: 200px;
+}
+#survey-section{ 
+    position: relative;
+}
+#survey-section p {
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  
+  
+}
+
+#survey-section {
+  background-color: #f5f5f5;
+  padding: 50px;
+  background: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/vector-nature-background_thumb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h-primary {
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: white;
+}
+
+#survey {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: url(https://media.istockphoto.com/id/844226534/photo/leaf-background.jpg?b=1&s=612x612&w=0&k=20&c=kECabGLk1Wkbuq7VS4LmikUzAwOo96ztub90zOIBha8=);
+}
+
+.survey-item {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+  width: 300px;
+}
+
+.survey-item img {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.survey-item p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.survey-item a {
+  background-color: #4CAF50;
+  border-radius: 5px;
+  color: #ffffff;
+  display: block;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.survey-item a:hover {
+  background-color: #3e8e41;
+}
+
+#news{
+  background-color: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+  background: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/vector-nature-background_thumb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-title {
+  font-size: 60px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  background-color: white;
+}
+
+.news-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: url(https://media.istockphoto.com/id/844226534/photo/leaf-background.jpg?b=1&s=612x612&w=0&k=20&c=kECabGLk1Wkbuq7VS4LmikUzAwOo96ztub90zOIBha8=);
+}
+
+.news-item {
+  width: 400px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 30px;
+  margin: 20px;
+  text-align: left;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.news-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.news-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.news-date {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.news-content {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.view-more-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 100px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+
+}
+
+.view-more-btn:hover {
+  background-color: #0069d9;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+ 
+#contact {
+font-size: 2rem;
+  margin-top: 50px;
+background-color: #f2f2f2;
+padding: 50px;
+}
+
+.center {
+text-align: center;
+}
+
+.feedback-box {
+  background-color: lightgreen;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.feedback-box a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-info {
+flex-basis: 40%;
+text-align: center;
+}
+
+.h-tertiary {
+font-size: 20px;
+margin-bottom: 20px;
+color: black;
+}
+
+p {
+font-size: 16px;
+margin-bottom: 10px;
+color: #333;
+}
+
+i {
+margin-right: 10px;
+font-size: 20px;
+color:black;
+}
+
+.social-links {
+margin-top: 20px;
+}
+
+.social-link {
+display: inline-block;
+margin-right: 10px;
+}
+
+.social-link:last-of-type {
+margin-right: 0;
+}
+
+.social-link a {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+width: 40px;
+height: 40px;
+background-color: #0077b6;
+border-radius: 50%;
+color: #fff;
+font-size: 20px;
+transition: background-color 0.2s ease;
+}
+
+.social-link a:hover {
+background-color: #005a8d;
+}
+
+@media screen and (max-width: 768px) {
+.contact-container {
+flex-direction: column;
+text-align: center;
+}
+
+form {
+margin-bottom: 30px;
+}
+}
+
+footer {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+footer a {
+  color: #666;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #333;
+}
+
+footer .copy {
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+footer img {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}
+
+
+
+/* Utility Classes */
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: blue;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.center{
+    text-align: center;
+}
+
+
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+.btn{
+  padding: 2px solid white;
+  background:LIGHT;
+  color: white;
+  margin: 17px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+.center{
+  text-align: center;
+}

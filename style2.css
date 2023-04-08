@@ -1,0 +1,61 @@
+#news{
+  background-color: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+  background: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/vector-nature-background_thumb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-title {
+  font-size: 60px;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  background-color: white;
+}
+
+.news-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: url(https://media.istockphoto.com/id/844226534/photo/leaf-background.jpg?b=1&s=612x612&w=0&k=20&c=kECabGLk1Wkbuq7VS4LmikUzAwOo96ztub90zOIBha8=);
+}
+
+.news-item {
+  width: 400px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 30px;
+  margin: 20px;
+  text-align: left;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.news-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.news-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.news-date {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.news-content {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #555;
+}
